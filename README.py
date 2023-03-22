@@ -1,0 +1,32 @@
+# 1. Добавление двух книг
+test_add_new_book_add_two_books_two_books_added
+
+# 2. Добавление двух одинаковых книг
+test_add_new_book_add_the_same_book_twice_the_book_added_once
+
+# 3. Установление книге рейтинга 10
+test_set_book_rating_set_book_rating_10_the_book_rating_is_ten
+
+# 4. Установление книге рейтинга 0
+test_set_book_rating_set_book_rating_zero_the_book_rating_is_one
+
+# 5. Установление книге рейтинга 11
+test_set_book_rating_set_book_rating_eleven_the_book_rating_is_one
+
+# 6. Получение рейтинга книги по ее имени
+test_get_book_rating_get_book_rating_9_book_rating_is_9
+
+# 7. Получение списка книг с определенным рейтингом
+test_get_books_with_specific_rating_get_books_with_rating_three_books_with_rating_three_are_displayed
+
+# 8. Добавление книги в избранное
+test_add_book_in_favourites_add_a_book_in_favourites_the_book_is_added
+
+# 9. Добавление той же самой книги в избранное дважды
+test_add_book_in_favourites_add_book_in_favourites_twice_book_is_added_once
+
+# 10. Добавление книги, которой нет в словаре, в избранное
+test_add_book_in_favourites_add_book_not_from_books_rating_to_favourites_favourites_is_empty
+
+# 11. Удаление книги из избранного
+test_delete_book_from_favorites_delete_one_book_from_favorites_book_is_deleted
